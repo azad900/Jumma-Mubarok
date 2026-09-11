@@ -1,0 +1,68 @@
+import { SunnahItem } from "../types";
+
+export const FRIDAY_SUNNAHS: SunnahItem[] = [
+  {
+    id: "sunnah_ghusl",
+    titleBangla: "গোসল করা (Ghusl)",
+    titleEnglish: "Taking a Bath / Ghusl",
+    description: "জুমার নামাজের উদ্দেশ্যে উত্তমরূপে গোসল করা অত্যন্ত গুরুত্বপূর্ণ সুন্নত বা ওয়াজিবের সমতুল্য গুরুত্ববহ।",
+    hadithReference: "রাসূলুল্লাহ (ﷺ) বলেছেন: 'তোমাদের মধ্যে যে কেউ জুমার নামাজে উপস্থিত হবে, সে যেন গোসল করে।' (সহীহ বুখারী: ৮৭৭)",
+    completed: false,
+  },
+  {
+    id: "sunnah_miswak",
+    titleBangla: "মেসওয়াক বা দাঁত পরিষ্কার করা",
+    titleEnglish: "Using Miswak / Oral Hygiene",
+    description: "মুখে সুবাস বজায় রাখা এবং মেসওয়াক দ্বারা দাঁত ও মুখমণ্ডল উত্তমরূপে পরিষ্কার করা।",
+    hadithReference: "রাসূলুল্লাহ (ﷺ) বলেছেন: 'জুমার দিন গোসল করা, সামর্থ্যানুযায়ী মেসওয়াক করা এবং সুগন্ধি লাগানো প্রত্যেক বালেগ পুরুষের কর্তব্য।' (সহীহ মুসলিম: ৮৪৬)",
+    completed: false,
+  },
+  {
+    id: "sunnah_clothes",
+    titleBangla: "উত্তম ও পরিচ্ছন্ন পোশাক পরিধান",
+    titleEnglish: "Wearing Clean / Best Clothes",
+    description: "জুমার দিনে সবচেয়ে পরিচ্ছন্ন ও মার্জিত পোশাক (বিশেষত সাদা রঙের) পরিধান করা মুস্তাহাব।",
+    hadithReference: "নবীজী (ﷺ) বলেছেন: 'তোমাদের পোশাকসমূহের মধ্যে সাদা পোশাক সবচেয়ে উত্তম, কাজেই তোমরা সাদা পোশাক পরো...' (আবু দাউদ: ৪০৬১)",
+    completed: false,
+  },
+  {
+    id: "sunnah_attar",
+    titleBangla: "সুগন্ধি / আতর ব্যবহার করা",
+    titleEnglish: "Applying Perfume / Attar",
+    description: "পুরুষদের জন্য জুমার জামাতে যাওয়ার পূর্বে শরীরে বা পোশাকে হালাল সুগন্ধি লাগানো সুন্নত।",
+    hadithReference: "রাসূলুল্লাহ (ﷺ) বলেছেন: 'ঘরে সুগন্ধি থাকলে তা যেন কিছুটা স্পর্শ বা ব্যবহার করে।' (সহীহ বুখারী: ৮৮০)",
+    completed: false,
+  },
+  {
+    id: "sunnah_early",
+    titleBangla: "আগেভাগে মসজিদে গমন",
+    titleEnglish: "Going Early to the Mosque",
+    description: "জুমার আজানের অপেক্ষা না করে প্রথমভাগে মসজিদে প্রবেশ করে তাহিয়্যাতুল মসজিদ ও নফল ইবাদতে নিমগ্ন হওয়া।",
+    hadithReference: "প্রথম প্রহরে মসজিদে গেলে একটি উট কুরবানি করার, দ্বিতীয় প্রহরে গাভী কুরবানি করার সওয়াব মেলে। (সহীহ বুখারী: ৮৮১)",
+    completed: false,
+  },
+  {
+    id: "sunnah_walk",
+    titleBangla: "পায়ে হেঁটে মসজিদে যাওয়া (যদি সম্ভব হয়)",
+    titleEnglish: "Walking to the Masjid",
+    description: "গাড়ির পরিবর্তে পায়ে হেঁটে মসজিদে যাওয়া অপরিসীম সওয়াবের মাধ্যম।",
+    hadithReference: "রাসূলুল্লাহ (ﷺ) বলেছেন: 'যে ব্যক্তি পায়ে হেঁটে মসজিদে যায় এবং কোনো বাহনে চড়ে না, তার প্রতি কদমে এক বছরের নফল নামাজ ও রোজার সওয়াব হয়।' (তিরমিযী: ৪৯৬, সহীহ)",
+    completed: false,
+  },
+  {
+    id: "sunnah_khutbah",
+    titleBangla: "খুতবা চলাকালে সম্পূর্ণ নীরব থেকে শ্রবণ",
+    titleEnglish: "Listening Silently to Khutbah",
+    description: "খুতবা শুরু হলে কোনো কথা বলা, পাশের লোককে চুপ করতে বলা, কিংবা মোবাইল ব্যবহার করা নিষিদ্ধ।",
+    hadithReference: "রাসূলুল্লাহ (ﷺ) বলেছেন: 'খুতবা চলাকালে তুমি যদি তোমার পাশের সঙ্গীকেও বলো 'চুপ থাকো', তবে তুমিও একটি অনর্থক কাজ করলে (জুমার পরিপূর্ণ সওয়াব বিনষ্ট করলে)।' (সহীহ বুখারী: ৯৩৪)",
+    completed: false,
+  },
+  {
+    id: "sunnah_durood_kahf",
+    titleBangla: "সূরা কাহাফ পাঠ ও প্রচুর দরূদ শরীফ",
+    titleEnglish: "Reciting Surah Kahf & Abundant Durood",
+    description: "জুমার দিবা-রাত্রিতে নিয়মিত সূরা কাহাফ তিলাওয়াত এবং রাসুল (ﷺ)-এর ওপর শত শত বার দরূদ পেশ করা।",
+    hadithReference: "'জুমার দিনে আমার ওপর বেশি বেশি দরূদ পাঠ করো...' (আবু দাউদ: ১০৪৭)",
+    completed: false,
+  },
+];
